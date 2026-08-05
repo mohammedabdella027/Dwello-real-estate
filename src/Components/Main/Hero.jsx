@@ -1,8 +1,5 @@
 import React from 'react'
 import HeroImage from '../../assets/Images/hero-image-1.jpg';
-import Location from '../../assets/Icons/location.png'
-import Home from '../../assets/Icons/home.png'
-import Price from '../../assets/Icons/price.png'
 
 function Hero() {
     return (
