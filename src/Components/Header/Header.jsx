@@ -29,16 +29,16 @@ function Header() {
                 </ul>
             </div>
 
-            <div className='flex gap-4'>
-                <button className=''> 
+            <div className='flex gap-4 items-center'>
+                <button> 
                     <img src={Search} alt="Search" className='cursor-pointer'/>
                 </button>
 
-                <button className=''> 
+                <button> 
                     <img src={User} alt="User" className='cursor-pointer'/>
                 </button>
 
-                <button className='w-28 h-10 bg-[#2B1B12] rounded-2xl text-white'> 
+                <button className='bg-[#2B1B12] text-white text-base font-semibold px-8 py-2 rounded-xl w-fit hover:opacity-95 transition-opacity mt-2 shadow-sm'>
                     Sign up
                 </button>
             </div>
