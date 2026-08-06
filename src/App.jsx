@@ -4,6 +4,7 @@ import Header from './Components/Header/Header'
 import Hero from './Components/Main/Hero'
 import SectionOne from './Components/Main/SectionOne'
 import SectionTwo from './Components/Main/SectionTwo'
+import SectionThree from './Components/Main/SectionThree'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
     </>
   )
 }
