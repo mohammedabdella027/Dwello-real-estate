@@ -15,10 +15,10 @@ const ResponsiveMenu = ({open}) => {
                     >
                         <div className='items-center gap-6 text-white font-bold bg-[#2B1B12] py-2 m-6 rounded-3xl'>
                             <ul className='flex flex-col justify-center items-center gap-5'>
-                                <li>Home</li>
-                                <li>Service</li>
-                                <li>Agents</li>
-                                <li>Contact</li>
+                                <li className='hover:text-[#DDC7BB] cursor-pointer'>Home</li>
+                                <li className='hover:text-[#DDC7BB] cursor-pointer'>Service</li>
+                                <li className='hover:text-[#DDC7BB] cursor-pointer'>Agents</li>
+                                <li className='hover:text-[#DDC7BB] cursor-pointer'>Contact</li>
                             </ul>
                         </div>
                     </motion.div>

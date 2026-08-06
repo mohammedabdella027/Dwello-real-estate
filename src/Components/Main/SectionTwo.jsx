@@ -3,13 +3,13 @@ import Image from '../../assets/Images/mask-group.png';
 
 function SectionTwo() {
     return (
-        <div className='mt-50 lg:flex w-[90%] m-auto lg:gap-18'>
+        <div className='mt-70 lg:mt-40 lg:flex w-[90%] m-auto lg:gap-18'>
             <div className='w-100 m-auto pb-4'>
                 <img src={Image} alt="Image" />
             </div>
 
-            <div className='m-auto'>
-                <h1 className='font-extrabold text-[40px] leading-[130%] pb-6'>We Help You To Find <br />Your Dream Home</h1>
+            <div className='w-100 m-auto'>
+                <h1 className='font-extrabold text-[35px] leading-[150%] pb-3'>We Help You To Find <br />Your Dream Home</h1>
 
                 <p className='font-bold text-[16px] text-[#4F3527] py-2 '>From cozy cottages to luxurious estates, our <br />dedicated team guides you through every step of the <br />journey, ensuring your dream home becomes a reality</p>
 
