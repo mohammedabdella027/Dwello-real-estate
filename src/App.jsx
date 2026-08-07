@@ -5,6 +5,7 @@ import Hero from './Components/Main/Hero'
 import SectionOne from './Components/Main/SectionOne'
 import SectionTwo from './Components/Main/SectionTwo'
 import SectionThree from './Components/Main/SectionThree'
+import SectionFour from './Components/Main/SectionFour'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
     </>
   )
 }
