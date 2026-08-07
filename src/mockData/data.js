@@ -12,6 +12,17 @@ import locationThree from "../assets/Icons/location-three.png"
 import rooms from "../assets/Icons/rooms.png"
 import size from "../assets/Icons/size.png"
 
+// ----------------- What People Say About Dwello -------------------
+import womanOneHome from "../assets/Images/woman-one-home.png"
+import manOneHome from "../assets/Images/man-one-home.png"
+import womanTwoHome from "../assets/Images/woman-Two-home.png"
+import womanOne from "../assets/Images/woman-one.png"
+import manOne from "../assets/Images/man-one.png"
+import womanTwo from "../assets/Images/woman-Two.png"
+import star from "../assets/Icons/Star.png"
+
+// ==================================================================================================================
+
 export const Navbarlinks = [
     {
         id: 1,
@@ -108,4 +119,40 @@ export const OurPopularResidences = [
         sizeNumber: "4,000 sq ft",
         price: "$3,700,000"
     }
+]
+
+// -------------------------------------
+
+export const whatPeopleSayAboutDwello = [
+    {
+        id: 1,
+        homeImage: womanOneHome,
+        peopleImage: womanOne,
+        peopleName: "Sarah Nguyen",
+        peopleCity: "San Francisco",
+        ratingStar: star,
+        ratingNumber: "5.0",
+        peopleSays: "Dwello truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in the Bay Area. Their professionalism and attention to detail are unmatched."
+    },
+
+    {
+        id: 2,
+        homeImage: manOneHome,
+        peopleImage: manOne,
+        peopleName: "Michael Rodriguez",
+        peopleCity: "San Diego",
+        ratingStar: star,
+        ratingNumber: "4.5",
+        peopleSays: "I had a fantastic experience working with Dwello. Their expertise and personalized service exceeded my expectations. I found my dream home quickly and smoothly. Highly recommended!"
+    },
+    {
+        id: 3,
+        homeImage: womanTwoHome,
+        peopleImage: womanTwo,
+        peopleName: "Emily Johnson",
+        peopleCity: "Los Angeles",
+        ratingStar: star,
+        ratingNumber: "5.0",
+        peopleSays: "Dwello made my dream of owning a home a reality! Their team provided exceptional support and guided me through every step of the process. I couldn't be happier with my new home!"
+    },
 ]
