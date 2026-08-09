@@ -19,8 +19,8 @@ function SectionSix() {
                 </div> 
             </div>
 
-            <div className='flex justify-center gap-2'>
-                <div className="relative w-106 h-14 bg-[#DDC7BB] rounded-lg flex items-center -mt-1.25 my-8">
+            <div className='sm:flex sm:justify-center text-center sm:gap-2 items-center'>
+                <div className="relative w-106 h-14 bg-[#DDC7BB] rounded-lg flex items-center m-auto sm:m-0 -mt-1.25 my-8">
                 <input type="text" placeholder="Enter your email address..." className="w-full h-full bg-transparent pl-8 pr-10 text-sm font-bold outline-none placeholder:text-[#695346]"/>
                 <button className="absolute left-2">
                 <img src={email} alt="email" className="w-5 h-5" />

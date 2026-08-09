@@ -7,13 +7,13 @@ function SectionThree() {
             <div>
                 <h1 className='font-extrabold text-4xl text-center text-[#2B1B12] pb-4'>Why Choose Us</h1>
 
-                <p className='font-bold text-[16px] text-[#4F3527] text-center'>Elevating Your Home Buying Experience with Expertise, Integrity, <br />and Unmatched Personalized Service</p>
+                <p className='font-bold text-[16px] text-[#4F3527] text-center'>Elevating Your Home Buying Experience with Expertise, Integrity, <br className='hidden sm:block' />and Unmatched Personalized Service</p>
             </div>
 
-            <div className='lg:flex lg:gap-8 items-center'>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-7xl">
                 {WhyChooseUs.map((item) => {
                     return (
-                        <div key={item.id} className='bg-[#DDC7BB] my-8 lg:w-68.7 w-68 m-auto h-67 rounded-2xl pt-0.5'>
+                        <div key={item.id} className='bg-[#DDC7BB] my-8 lg:w-55 w-68 m-auto rounded-2xl pt-0.5 pb-4'>
                             <div className='w-20 lg:h-20 lg:mt-7 ml-6 pl-3 pb-4 bg-[#FBF5F1] rounded-xl'>
                             <img src={item.img} className='mt-7 lg:mt-0 pt-4' />
                             </div>

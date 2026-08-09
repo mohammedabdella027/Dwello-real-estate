@@ -6,11 +6,11 @@ function SectionFour() {
         <div className='mt-20'>
         <h1 className='font-extrabold text-4xl text-center text-[#2B1B12]'>Our Popular Residences</h1>
 
-        <div className='lg:flex lg:justify-center gap-10'>
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 w-full max-w-7xl">
             {OurPopularResidences.map((item) => {
                 return (
                     <div key={item.id} className=''>
-                        <div className='w-82 h-120 rounded-[18px] bg-[#DDC7BB] my-16 m-auto'>
+                        <div className='w-82 lg:w-78 h-120 rounded-[18px] bg-[#DDC7BB] my-16 m-auto'>
                             <div><img src={item.placeImg} alt={item.placeImg} className='rounded-t-[18px]'/></div>
 
                             <div className='flex p-3 gap-2 items-center'>
