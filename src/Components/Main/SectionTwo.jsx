@@ -4,7 +4,7 @@ import Image from '../../assets/Images/mask-group.png';
 function SectionTwo() {
     return (
         <div className='mt-70 lg:mt-40 lg:flex w-[90%] m-auto lg:gap-18'>
-            <div className='w-100 m-auto pb-4'>
+            <div className='w-100 m-auto pb-4 hover:scale-105 hover:duration-300 duration-200'>
                 <img src={Image} alt="Image" />
             </div>
 

@@ -10,7 +10,7 @@ function SectionFour() {
             {OurPopularResidences.map((item) => {
                 return (
                     <div key={item.id} className=''>
-                        <div className='w-82 lg:w-78 h-120 rounded-[18px] bg-[#DDC7BB] my-16 m-auto'>
+                        <div className='w-82 lg:w-78 h-120 rounded-[18px] bg-[#DDC7BB] my-16 m-auto hover:scale-105 hover:duration-300 duration-200'>
                             <div><img src={item.placeImg} alt={item.placeImg} className='rounded-t-[18px]'/></div>
 
                             <div className='flex p-3 gap-2 items-center'>

@@ -11,7 +11,7 @@ function SectionFive() {
             <div className='lg:flex lg:w-250 gap-10 justify-center m-auto'>
                 {whatPeopleSayAboutDwello.map((item) => {
                     return (
-                        <div key={item.id} className='bg-[#DDC7BB] w-95 h-95 my-15 rounded-[18px] m-auto'>
+                        <div key={item.id} className='bg-[#DDC7BB] w-95 h-95 my-15 rounded-[18px] m-auto hover:scale-105 hover:duration-300 duration-200'>
                             <div>
                                 <img src={item.homeImage} alt={item.homeImage} className='rounded-t-[18px]'/>
                             </div>
