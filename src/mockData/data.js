@@ -15,10 +15,10 @@ import size from "../assets/Icons/size.png"
 // ----------------- What People Say About Dwello -------------------
 import womanOneHome from "../assets/Images/woman-one-home.png"
 import manOneHome from "../assets/Images/man-one-home.png"
-import womanTwoHome from "../assets/Images/woman-Two-home.png"
+import womanTwoHome from "../assets/Images/woman-two-home.png"
 import womanOne from "../assets/Images/woman-one.png"
 import manOne from "../assets/Images/man-one.png"
-import womanTwo from "../assets/Images/woman-Two.png"
+import womanTwo from "../assets/Images/woman-two.png"
 import star from "../assets/Icons/Star.png"
 
 // ==================================================================================================================
