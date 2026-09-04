@@ -43,8 +43,8 @@ function SectionFive() {
             </div>
 
             <div className='justify-center gap-8 hidden lg:flex'>
-                <button><img src={leftArrow} alt="leftArrow" className='' /></button>
-                <button><img src={rightArrow} alt="rightArrow" /></button>
+                <button className='hover:scale-105 hover:duration-300 duration-20 cursor-pointer'><img src={leftArrow} alt="leftArrow" className='' /></button>
+                <button className='hover:scale-105 hover:duration-300 duration-200 cursor-pointer'><img src={rightArrow} alt="rightArrow" /></button>
             </div>
         </div>
     )

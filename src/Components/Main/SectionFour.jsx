@@ -31,7 +31,7 @@ function SectionFour() {
                             </div>
 
                             <div className='flex p-3 gap-18'>
-                                <button className='bg-[#2B1B12] text-white text-base font-semibold rounded-xl w-24 h-10 hover:opacity-95 transition-opacity shadow-sm'>
+                                <button className='bg-[#2B1B12] text-white text-base font-semibold rounded-xl w-24 h-10 hover:opacity-90 hover:scale-105 hover:duration-300 duration-200 transition-opacity shadow-sm'>
                                 Sign up
                                 </button>
                                 <p className='font-bold text-[22px] text-[#4F3527]'>{item.price}</p>

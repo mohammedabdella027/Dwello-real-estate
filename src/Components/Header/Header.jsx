@@ -38,7 +38,7 @@ function Header() {
                     <img src={User} alt="User" className='cursor-pointer'/>
                 </button>
 
-                <button className='bg-[#2B1B12] text-white text-base font-semibold px-8 py-2 rounded-xl w-fit hover:opacity-95 transition-opacity mt-2 shadow-sm'>
+                <button className='bg-[#2B1B12] text-white text-base font-semibold px-8 py-2 rounded-xl w-fit hover:opacity-90 hover:scale-102 hover:duration-300 duration-200 transition-opacity mt-2 shadow-sm'>
                     Sign up
                 </button>
             </div>

@@ -18,7 +18,7 @@ function Hero() {
                     Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision
                 </p>
 
-                <button className='bg-[#2B1B12] text-white text-base font-semibold px-8 py-2 rounded-xl w-fit hover:opacity-95 transition-opacity mt-2 shadow-sm'>
+                <button className='bg-[#2B1B12] text-white text-base font-semibold px-8 py-2 rounded-xl w-fit hover:opacity-90 hover:scale-105 hover:duration-300 duration-200 transition-opacity mt-2 shadow-sm'>
                     Sign up
                 </button>
             </div>

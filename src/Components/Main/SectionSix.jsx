@@ -28,7 +28,7 @@ function SectionSix() {
                 </div>
 
                 <div>
-                <button className='bg-[#2B1B12] text-white font-semibold rounded-xl w-32 h-12 hover:opacity-95 transition-opacity shadow-sm'>
+                <button className='bg-[#2B1B12] text-white font-semibold rounded-xl w-32 h-12 hover:opacity-90 hover:scale-105 hover:duration-300 duration-200 cursor-pointer transition-opacity shadow-sm'>
                 Submit
                 </button>
                 </div>
